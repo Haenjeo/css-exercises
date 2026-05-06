@@ -24,3 +24,39 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Answer */
+
+
+.title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.items{
+  display: flex;
+  gap: 52px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  text-align: center;
+}
+
+img {
+  display: flex;
+  align-self: center;
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
